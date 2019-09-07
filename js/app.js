@@ -33,11 +33,9 @@ $(function(){
              li= `
                 <li>
                       <div class="partition">
-
-                         <h2> 
-                         
-                          ${items.title}
-                         </h2>
+                            
+                        <a ></a>
+                         <a class="fill-div" href="#">${items.title}</a>
                          
                          <img src="${items.poster}" alt="">
                            
