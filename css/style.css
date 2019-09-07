@@ -1,0 +1,45 @@
+*{
+
+    margin: 0 auto;
+    padding: 0;
+    
+}
+#results{
+    text-align: center;
+    margin: 40px;
+    padding :  20px ;
+    margin: 20px;
+    overflow: auto;
+    vertical-align: middle;
+}
+li img{
+    width: 150px;
+    height: 300px;
+}
+
+   
+}
+header{
+    color: white;
+    background: purple;
+    padding: 30px;
+    font-size: 3em;
+
+}
+ul {
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    overflow: auto;
+  }
+  ul li {
+    flex: 1 0 33%;
+  }
+  ul img{
+    vertical-align: top;
+  }
+  .partition{
+      margin : 30px;
+      padding : 20px;
+  }
